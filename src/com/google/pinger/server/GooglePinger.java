@@ -43,7 +43,8 @@ public class GooglePinger extends HttpServlet {
 		// A list of URLS if we want to ping more than one.
 		List<URL> urlList = new ArrayList<URL>();
 		// An example URL, change this with your preferred URL
-		urlList.add(new URL("http://www.google.es"));
+		urlList.add(new URL("http://hochzeit-pallares.rhcloud.com/"));
+		urlList.add(new URL("http://springy-pallares.rhcloud.com/"));
 		for (URL url : urlList) {
 			try {
 				// The GET request is generated here when openStream() is
